@@ -9,7 +9,7 @@ export function Header() {
                     href="/"
                     className="text-2xl font-bold tracking-tight text-primary uppercase"
                 >
-                    Cineverse
+                    <span className="text-foreground">Cine</span>verse
                 </Link>
 
                 <div className="flex items-center gap-8">
@@ -28,6 +28,11 @@ export function Header() {
                         className="text-foreground hover:text-primary transition-colors"
                     >
                         Actors</Link>
+                    <Link
+                        href="/directors"
+                        className="text-foreground hover:text-primary transition-colors"
+                    >
+                        Directors</Link>
                 </div>
             </nav>
         </header>

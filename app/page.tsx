@@ -7,7 +7,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
            <div className="relative z-10 max-w-2xl text-center">
             <p className="mb-4 font-semibold tracking-widest text-primary uppercase">
-              Welcome to cineverse
+              Welcome to <span className="text-foreground">Cine</span>verse
             </p>
             <h1 className="mb-6 text-4xl font-bold text-foreground md:text-6xl">
               Discover Your Next Favorite Movie
