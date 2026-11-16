@@ -26,3 +26,11 @@ body {
 .container {
   @apply w-full max-w-6xl mx-auto px-4;
 }
+
+.stack {
+  @apply flex flex-col gap-8;
+}
+
+.stack-md {
+  @apply flex flex-col gap-6;
+}

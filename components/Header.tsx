@@ -17,22 +17,20 @@ export function Header() {
                         href="/"
                         className="text-foreground hover:text-primary transition-colors"
                     >
-                        Home</Link>
+                        Home
+                    </Link>
                     <Link
                         href="/movies"
                         className="text-foreground hover:text-primary transition-colors"
                     >
-                        Movies</Link>
+                        Movies
+                    </Link>
                     <Link
-                        href="/actors"
+                        href="/cast-crew"
                         className="text-foreground hover:text-primary transition-colors"
                     >
-                        Actors</Link>
-                    <Link
-                        href="/directors"
-                        className="text-foreground hover:text-primary transition-colors"
-                    >
-                        Directors</Link>
+                        Cast & Crew
+                    </Link>
                 </div>
             </nav>
         </header>
