@@ -12,6 +12,18 @@ export function Header() {
                     <span className="text-foreground">Cine</span>verse
                 </Link>
 
+                <form action="/search" method="get" className="flex items-center gap-2">
+                    <input
+                        type="search"
+                        name="q"
+                        id="header-search-q"
+                        placeholder="Search movies..."
+                        className="w-56 rounded-lg border border-border bg-surface px-4 py-2 text-sm text-foreground outline-none transition-colors placeholder:text-muted focus:border-primary"
+                        autoComplete="off"
+                    />
+                    <button type="submit" className="cursor-pointer rounded-lg bg-primary px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-hover">Search</button>
+                </form>
+
                 <div className="flex items-center gap-8">
                     <Link
                         href="/"
